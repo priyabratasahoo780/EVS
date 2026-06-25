@@ -25,7 +25,7 @@ export const useQuiz = () => {
     setCurrentIndex(0);
     setScore(0);
     setWrongCount(0);
-    setTimer(30);
+    setTimer(60);
     setIsCompleted(false);
     setSelectedAnswer(null);
     setIsLocked(false);
@@ -91,7 +91,7 @@ export const useQuiz = () => {
       setCurrentIndex((prev) => prev + 1);
       setSelectedAnswer(null);
       setIsLocked(false);
-      setTimer(30);
+      setTimer(60);
     } else {
       setIsCompleted(true);
     }
