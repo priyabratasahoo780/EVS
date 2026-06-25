@@ -10,6 +10,7 @@ export const useQuiz = () => {
   const [timer, setTimer] = useState(30);
   const [isCompleted, setIsCompleted] = useState(false);
   const [isLocked, setIsLocked] = useState(false);
+  const [userAnswers, setUserAnswers] = useState([]);
 
   const [currentCategory, setCurrentCategory] = useState('All');
 
@@ -29,6 +30,7 @@ export const useQuiz = () => {
     setIsCompleted(false);
     setSelectedAnswer(null);
     setIsLocked(false);
+    setUserAnswers([]);
   }, []);
 
   useEffect(() => {
@@ -64,6 +66,13 @@ export const useQuiz = () => {
     setIsLocked(true);
     setWrongCount((prev) => prev + 1);
     
+    setUserAnswers((prev) => [...prev, {
+      question: currentQuestion.question,
+      selected: null,
+      correct: currentQuestion.answer,
+      isCorrect: false
+    }]);
+    
     setTimeout(() => {
       moveToNextQuestion();
     }, 1500);
@@ -75,11 +84,21 @@ export const useQuiz = () => {
     setSelectedAnswer(answer);
     setIsLocked(true);
 
+    let isAnswerCorrect = false;
+
     if (answer === currentQuestion.answer) {
       setScore((prev) => prev + 1);
+      isAnswerCorrect = true;
     } else {
       setWrongCount((prev) => prev + 1);
     }
+
+    setUserAnswers((prev) => [...prev, {
+      question: currentQuestion.question,
+      selected: answer,
+      correct: currentQuestion.answer,
+      isCorrect: isAnswerCorrect
+    }]);
 
     setTimeout(() => {
       moveToNextQuestion();
@@ -114,6 +133,7 @@ export const useQuiz = () => {
     isCompleted,
     isLocked,
     currentCategory,
+    userAnswers,
     handleAnswerSelect,
     restartQuiz
   };

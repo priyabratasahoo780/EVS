@@ -51,6 +51,7 @@ function App() {
           <ResultCard 
             score={quizState.score}
             total={quizState.totalQuestions}
+            userAnswers={quizState.userAnswers}
             onRestart={handleRestart}
           />
         )}
