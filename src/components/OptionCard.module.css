@@ -1,0 +1,70 @@
+.optionBtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.optionContent {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.letterBadge {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.optionText {
+  font-size: 16px;
+  color: var(--text);
+}
+
+.locked {
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+
+.correct {
+  border: 2px solid var(--success);
+  box-shadow: 0 0 15px rgba(76, 175, 80, 0.4), var(--neumorph-outer);
+}
+
+.wrong {
+  border: 2px solid var(--error);
+  box-shadow: 0 0 15px rgba(244, 67, 54, 0.4), var(--neumorph-inner);
+}
+
+.iconCorrect {
+  color: var(--success);
+}
+
+.iconWrong {
+  color: var(--error);
+}
+
+@media (max-width: 600px) {
+  .optionBtn {
+    padding: 12px 15px;
+  }
+  
+  .optionText {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  .letterBadge {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+}
