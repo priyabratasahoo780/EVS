@@ -2598,5 +2598,1305 @@ export const questions = [
     "answer": "Control and prevention",
     "category": "Environmental Pollution",
     "difficulty": "Mixed"
+  },
+  {
+    "id": 201,
+    "question": "What is the value of the standard limit lim(x→0) (sin x)/x?",
+    "options": [
+      "0",
+      "1",
+      "Infinity",
+      "Undefined"
+    ],
+    "answer": "1",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 202,
+    "question": "A function f(x) is said to be continuous at a point x=a if:",
+    "options": [
+      "lim(x→a) f(x) exists",
+      "f(a) is defined",
+      "lim(x→a) f(x) = f(a)",
+      "f'(a) exists"
+    ],
+    "answer": "lim(x→a) f(x) = f(a)",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 203,
+    "question": "If the left-hand limit and right-hand limit of a function at x=a are finite but unequal, the discontinuity is called:",
+    "options": [
+      "Removable discontinuity",
+      "Infinite discontinuity",
+      "Jump discontinuity",
+      "Oscillating discontinuity"
+    ],
+    "answer": "Jump discontinuity",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 204,
+    "question": "What is the value of lim(x→0) (e^x - 1)/x?",
+    "options": [
+      "0",
+      "1",
+      "e",
+      "Infinity"
+    ],
+    "answer": "1",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 205,
+    "question": "According to the power rule, what is the derivative of x^n with respect to x?",
+    "options": [
+      "n*x^(n+1)",
+      "x^(n-1)",
+      "n*x^(n-1)",
+      "x^(n+1)/(n+1)"
+    ],
+    "answer": "n*x^(n-1)",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 206,
+    "question": "According to the product rule of differentiation, d(uv)/dx is equal to:",
+    "options": [
+      "u(du/dx) + v(dv/dx)",
+      "u(dv/dx) + v(du/dx)",
+      "u(dv/dx) - v(du/dx)",
+      "u(du/dx) - v(dv/dx)"
+    ],
+    "answer": "u(dv/dx) + v(du/dx)",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 207,
+    "question": "What is the derivative of the natural logarithmic function, d(ln x)/dx?",
+    "options": [
+      "e^x",
+      "1/x",
+      "x",
+      "ln x"
+    ],
+    "answer": "1/x",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 208,
+    "question": "By the Chain Rule, if y = f(u) and u = g(x), then dy/dx is equal to:",
+    "options": [
+      "(dy/du) + (du/dx)",
+      "(dy/du) * (du/dx)",
+      "(dy/du) / (du/dx)",
+      "(dy/dx) * (dx/du)"
+    ],
+    "answer": "(dy/du) * (du/dx)",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 209,
+    "question": "A Maclaurin series is a special case of a Taylor series where the expansion is centered at:",
+    "options": [
+      "x = 1",
+      "x = a",
+      "x = 0",
+      "x = Infinity"
+    ],
+    "answer": "x = 0",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 210,
+    "question": "The Maclaurin series expansion of e^x is:",
+    "options": [
+      "1 - x + x^2/2! - x^3/3! + ...",
+      "1 + x + x^2/2! + x^3/3! + ...",
+      "x - x^3/3! + x^5/5! - ...",
+      "1 - x^2/2! + x^4/4! - ..."
+    ],
+    "answer": "1 + x + x^2/2! + x^3/3! + ...",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 211,
+    "question": "The Maclaurin series expansion of sin x contains:",
+    "options": [
+      "Only even powers of x",
+      "Only odd powers of x",
+      "Both even and odd powers of x",
+      "Only fractional powers of x"
+    ],
+    "answer": "Only odd powers of x",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 212,
+    "question": "What is the coefficient of x^3 in the Maclaurin series expansion of cos x?",
+    "options": [
+      "1/3!",
+      "-1/3!",
+      "0",
+      "1"
+    ],
+    "answer": "0",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 213,
+    "question": "The domain of the function of two variables f(x, y) = sqrt(1 - x^2 - y^2) is the set of all points (x,y) such that:",
+    "options": [
+      "x^2 + y^2 > 1",
+      "x^2 + y^2 = 1",
+      "x^2 + y^2 <= 1",
+      "x^2 + y^2 >= 1"
+    ],
+    "answer": "x^2 + y^2 <= 1",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 214,
+    "question": "Geometrically, an equation of the form z = f(x, y) represents a:",
+    "options": [
+      "Point in 2D space",
+      "Curve in 2D space",
+      "Surface in 3D space",
+      "Solid in 3D space"
+    ],
+    "answer": "Surface in 3D space",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 215,
+    "question": "If f(x, y) represents the temperature at a point (x, y) on a flat plate, it is an example of a:",
+    "options": [
+      "Vector function",
+      "Scalar function",
+      "Matrix function",
+      "Tensor function"
+    ],
+    "answer": "Scalar function",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 216,
+    "question": "If f(x, y) = x^2 * y, what is the partial derivative of f with respect to x (∂f/∂x)?",
+    "options": [
+      "x^2",
+      "2x",
+      "2xy",
+      "y"
+    ],
+    "answer": "2xy",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 217,
+    "question": "According to Clairaut's Theorem, if the mixed partial derivatives f_xy and f_yx are continuous, then:",
+    "options": [
+      "f_xy > f_yx",
+      "f_xy < f_yx",
+      "f_xy = -f_yx",
+      "f_xy = f_yx"
+    ],
+    "answer": "f_xy = f_yx",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 218,
+    "question": "The total derivative dz/dt of z = f(x,y) where x = x(t) and y = y(t) is given by:",
+    "options": [
+      "(∂z/∂x)(dx/dt) + (∂z/∂y)(dy/dt)",
+      "(∂z/∂x)(dy/dt) + (∂z/∂y)(dx/dt)",
+      "(∂z/∂x)(dx/dt) - (∂z/∂y)(dy/dt)",
+      "(∂z/∂x) + (∂z/∂y)"
+    ],
+    "answer": "(∂z/∂x)(dx/dt) + (∂z/∂y)(dy/dt)",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 219,
+    "question": "If u = e^(x+y) where x = st and y = s/t, what is the value of ∂u/∂s?",
+    "options": [
+      "e^(x+y) * (t - 1/t)",
+      "e^(x+y) * (t + 1/t)",
+      "e^(x+y) * (s + t)",
+      "e^(x+y) / t"
+    ],
+    "answer": "e^(x+y) * (t + 1/t)",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 220,
+    "question": "The gradient of a scalar function f(x,y,z) is a:",
+    "options": [
+      "Scalar quantity",
+      "Vector quantity",
+      "Constant",
+      "Matrix quantity"
+    ],
+    "answer": "Vector quantity",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 221,
+    "question": "The geometrical meaning of the gradient vector ∇f at a point is that it is:",
+    "options": [
+      "Parallel to the level surface",
+      "Tangent to the level surface",
+      "Normal (perpendicular) to the level surface",
+      "Always horizontal"
+    ],
+    "answer": "Normal (perpendicular) to the level surface",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 222,
+    "question": "The directional derivative of a function f(x,y) is maximum in the direction of:",
+    "options": [
+      "The x-axis",
+      "The y-axis",
+      "The gradient vector ∇f",
+      "A vector orthogonal to ∇f"
+    ],
+    "answer": "The gradient vector ∇f",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 223,
+    "question": "For a function of one variable, a point where the first derivative f'(x) = 0 or is undefined is called a:",
+    "options": [
+      "Inflection point",
+      "Critical point",
+      "Boundary point",
+      "Limit point"
+    ],
+    "answer": "Critical point",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 224,
+    "question": "In the second derivative test for f(x,y), let r=f_xx, s=f_xy, t=f_yy. If rt - s^2 > 0 and r > 0 at a critical point, the point is a:",
+    "options": [
+      "Local maximum",
+      "Local minimum",
+      "Saddle point",
+      "Test is inconclusive"
+    ],
+    "answer": "Local minimum",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 225,
+    "question": "A critical point of f(x,y) where the function has neither a local maximum nor a local minimum is called a:",
+    "options": [
+      "Turning point",
+      "Maximum point",
+      "Minimum point",
+      "Saddle point"
+    ],
+    "answer": "Saddle point",
+    "category": "Mathematics - Unit 1",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 226,
+    "question": "The order of a differential equation is defined as:",
+    "options": [
+      "The order of the highest derivative occurring in it",
+      "The degree of the highest derivative occurring in it",
+      "The number of variables in the equation",
+      "The number of arbitrary constants"
+    ],
+    "answer": "The order of the highest derivative occurring in it",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 227,
+    "question": "The degree of a differential equation, when it is a polynomial in its derivatives, is:",
+    "options": [
+      "The order of the highest derivative",
+      "The power of the highest order derivative",
+      "The sum of all powers of derivatives",
+      "The highest power of the independent variable"
+    ],
+    "answer": "The power of the highest order derivative",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 228,
+    "question": "What is the order and degree of the differential equation (d²y/dx²) + (dy/dx)³ + y = 0?",
+    "options": [
+      "Order 1, Degree 3",
+      "Order 2, Degree 3",
+      "Order 2, Degree 1",
+      "Order 3, Degree 2"
+    ],
+    "answer": "Order 2, Degree 1",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 229,
+    "question": "If a family of curves has 'n' arbitrary constants, the order of the corresponding differential equation is:",
+    "options": [
+      "n-1",
+      "n",
+      "n+1",
+      "2n"
+    ],
+    "answer": "n",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 230,
+    "question": "What is the order and degree of the differential equation d²y/dx² = √(1 + (dy/dx)²)?",
+    "options": [
+      "Order 2, Degree 1",
+      "Order 2, Degree 2",
+      "Order 1, Degree 2",
+      "Order 2, Degree 1/2"
+    ],
+    "answer": "Order 2, Degree 2",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 231,
+    "question": "A differential equation is called 'variable separable' if it can be written in the form:",
+    "options": [
+      "dy/dx + P(x)y = Q(x)",
+      "f(x)dx = g(y)dy",
+      "f(x,y)dx + g(x,y)dy = 0",
+      "d²y/dx² = f(x)"
+    ],
+    "answer": "f(x)dx = g(y)dy",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 232,
+    "question": "The solution of the differential equation dy/dx = x/y is:",
+    "options": [
+      "y² + x² = C",
+      "y² - x² = C",
+      "y - x = C",
+      "x²y² = C"
+    ],
+    "answer": "y² - x² = C",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 233,
+    "question": "The solution of the differential equation dy/dx = e^(x-y) is:",
+    "options": [
+      "e^y = e^x + C",
+      "e^x + e^y = C",
+      "e^y - e^(-x) = C",
+      "e^(-y) = e^x + C"
+    ],
+    "answer": "e^y = e^x + C",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 234,
+    "question": "The differential equation dy/dx = 1 / (1 + x²) has the general solution:",
+    "options": [
+      "y = sin⁻¹(x) + C",
+      "y = cos⁻¹(x) + C",
+      "y = tan⁻¹(x) + C",
+      "y = cot⁻¹(x) + C"
+    ],
+    "answer": "y = tan⁻¹(x) + C",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 235,
+    "question": "The general solution of sec²(x) dx + sec²(y) dy = 0 is:",
+    "options": [
+      "tan(x) + tan(y) = C",
+      "sin(x) + sin(y) = C",
+      "cos(x) + cos(y) = C",
+      "sec(x) + sec(y) = C"
+    ],
+    "answer": "tan(x) + tan(y) = C",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 236,
+    "question": "The standard form of a linear differential equation of the first order is:",
+    "options": [
+      "dy/dx + P(x) = Q(x)",
+      "dy/dx + P(x)y = Q(x)",
+      "dy/dx + P(y)x = Q(y)",
+      "(dy/dx)² + P(x)y = Q(x)"
+    ],
+    "answer": "dy/dx + P(x)y = Q(x)",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 237,
+    "question": "The Integrating Factor (I.F.) for the linear differential equation dy/dx + P(x)y = Q(x) is:",
+    "options": [
+      "e^(∫P dx)",
+      "e^(∫Q dx)",
+      "∫e^(P dx)",
+      "e^(PQ dx)"
+    ],
+    "answer": "e^(∫P dx)",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 238,
+    "question": "What is the integrating factor of the differential equation x(dy/dx) + y = x³?",
+    "options": [
+      "x",
+      "1/x",
+      "e^x",
+      "x²"
+    ],
+    "answer": "x",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 239,
+    "question": "The general solution of the linear differential equation dy/dx + Py = Q is given by:",
+    "options": [
+      "y(I.F.) = ∫ Q(I.F.) dx + C",
+      "x(I.F.) = ∫ Q(I.F.) dy + C",
+      "y = ∫ Q dx + C",
+      "y(I.F.) = Q(I.F.) + C"
+    ],
+    "answer": "y(I.F.) = ∫ Q(I.F.) dx + C",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 240,
+    "question": "What is the integrating factor of the differential equation (1+x²)(dy/dx) + 2xy = cos(x)?",
+    "options": [
+      "1+x²",
+      "2x",
+      "e^(x²)",
+      "x²"
+    ],
+    "answer": "1+x²",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 241,
+    "question": "For a linear differential equation with constant coefficients, if the roots of the auxiliary equation are real and distinct (m1, m2), the complementary function is:",
+    "options": [
+      "(C1 + C2x)e^(m1x)",
+      "C1e^(m1x) + C2e^(m2x)",
+      "e^(m1x)(C1 cos(m2x) + C2 sin(m2x))",
+      "C1m1 + C2m2"
+    ],
+    "answer": "C1e^(m1x) + C2e^(m2x)",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 242,
+    "question": "If the auxiliary equation has repeated real roots (m, m), the complementary function is:",
+    "options": [
+      "C1e^(mx) + C2e^(mx)",
+      "(C1 + C2x)e^(mx)",
+      "C1e^(m²x)",
+      "C1x + C2e^(mx)"
+    ],
+    "answer": "(C1 + C2x)e^(mx)",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 243,
+    "question": "The auxiliary equation for the differential equation d²y/dx² - 5(dy/dx) + 6y = 0 is:",
+    "options": [
+      "m² - 5m - 6 = 0",
+      "m² + 5m + 6 = 0",
+      "m² - 5m + 6 = 0",
+      "m² + 5m - 6 = 0"
+    ],
+    "answer": "m² - 5m + 6 = 0",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 244,
+    "question": "The complementary function for the differential equation (D² + 1)y = 0 is:",
+    "options": [
+      "C1e^x + C2e^(-x)",
+      "C1 cos(x) + C2 sin(x)",
+      "(C1 + C2x)e^x",
+      "C1e^x cos(x)"
+    ],
+    "answer": "C1 cos(x) + C2 sin(x)",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 245,
+    "question": "What is the Particular Integral (P.I.) of the differential equation (D² - 4)y = e^(3x)?",
+    "options": [
+      "e^(3x) / 5",
+      "e^(3x) / 9",
+      "e^(3x) / -4",
+      "3e^(3x) / 5"
+    ],
+    "answer": "e^(3x) / 5",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 246,
+    "question": "The Laplace transform of a constant 'a', denoted as L{a}, is:",
+    "options": [
+      "a",
+      "a/s",
+      "s/a",
+      "1/(s-a)"
+    ],
+    "answer": "a/s",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 247,
+    "question": "The Laplace transform of the exponential function e^(at) is:",
+    "options": [
+      "1/(s+a)",
+      "1/(s-a)",
+      "s/(s²+a²)",
+      "a/(s²+a²)"
+    ],
+    "answer": "1/(s-a)",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 248,
+    "question": "Which of the following represents the First Shifting Theorem in Laplace Transforms?",
+    "options": [
+      "L{f(t-a)} = e^(-as)F(s)",
+      "L{e^(at)f(t)} = F(s-a)",
+      "L{t f(t)} = -F'(s)",
+      "L{f(at)} = (1/a)F(s/a)"
+    ],
+    "answer": "L{e^(at)f(t)} = F(s-a)",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 249,
+    "question": "The Laplace transform of sin(at) is:",
+    "options": [
+      "s / (s² + a²)",
+      "a / (s² + a²)",
+      "s / (s² - a²)",
+      "a / (s² - a²)"
+    ],
+    "answer": "a / (s² + a²)",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 250,
+    "question": "What is the inverse Laplace transform of 1 / (s-2)³?",
+    "options": [
+      "(t²/2) e^(2t)",
+      "t² e^(2t)",
+      "(t/2) e^(2t)",
+      "t³ e^(2t)"
+    ],
+    "answer": "(t²/2) e^(2t)",
+    "category": "Mathematics - Unit 2",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 251,
+    "question": "A non-empty set V is considered a vector space over a field F if it is closed under:",
+    "options": [
+      "Vector addition and vector multiplication",
+      "Vector addition and scalar multiplication",
+      "Scalar addition and scalar multiplication",
+      "Vector subtraction and matrix multiplication"
+    ],
+    "answer": "Vector addition and scalar multiplication",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 252,
+    "question": "The dimension of the vector space R³ over the field of real numbers is:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Infinite"
+    ],
+    "answer": "3",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 253,
+    "question": "A set of vectors {v₁, v₂, ..., vₙ} forms a basis for a vector space V if and only if:",
+    "options": [
+      "They are linearly independent",
+      "They span V",
+      "They are linearly independent and they span V",
+      "They are orthogonal to each other"
+    ],
+    "answer": "They are linearly independent and they span V",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 254,
+    "question": "Which of the following is NOT a subspace of R²?",
+    "options": [
+      "The set of all vectors (x, y) where x = y",
+      "The set of all vectors (x, y) where x = 0",
+      "The set of all vectors (x, y) where x + y = 1",
+      "The set containing only the zero vector (0, 0)"
+    ],
+    "answer": "The set of all vectors (x, y) where x + y = 1",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 255,
+    "question": "If V is a vector space of dimension n, then any set containing n+1 vectors in V must be:",
+    "options": [
+      "Linearly independent",
+      "Linearly dependent",
+      "A basis for V",
+      "Orthogonal"
+    ],
+    "answer": "Linearly dependent",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 256,
+    "question": "Two non-zero vectors u and v are said to be orthogonal if their dot product (inner product) is:",
+    "options": [
+      "1",
+      "-1",
+      "0",
+      "Equal to the product of their magnitudes"
+    ],
+    "answer": "0",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 257,
+    "question": "What is the magnitude (or norm) of the vector v = (3, 4)?",
+    "options": [
+      "5",
+      "7",
+      "25",
+      "1"
+    ],
+    "answer": "5",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 258,
+    "question": "The formula for the vector projection of vector u onto vector v is given by:",
+    "options": [
+      "((u·v)/||v||)v",
+      "((u·v)/||v||²)v",
+      "((u·v)/||u||²)v",
+      "(u·v)v"
+    ],
+    "answer": "((u·v)/||v||²)v",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 259,
+    "question": "Which of the following is a unit vector in the same direction as the vector v = (1, 1, 1)?",
+    "options": [
+      "(1, 1, 1)",
+      "(1/3, 1/3, 1/3)",
+      "(1/√3, 1/√3, 1/√3)",
+      "(√3, √3, √3)"
+    ],
+    "answer": "(1/√3, 1/√3, 1/√3)",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 260,
+    "question": "If the dot product of two non-zero vectors is negative, what can be said about the angle between them?",
+    "options": [
+      "It is an acute angle (< 90°)",
+      "It is exactly a right angle (90°)",
+      "It is an obtuse angle (> 90°)",
+      "It is exactly 0°"
+    ],
+    "answer": "It is an obtuse angle (> 90°)",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 261,
+    "question": "For a square matrix A, the characteristic equation used to find eigenvalues λ is given by:",
+    "options": [
+      "|A + λI| = 0",
+      "|A - λI| = 0",
+      "A - λI = 0",
+      "|λA - I| = 0"
+    ],
+    "answer": "|A - λI| = 0",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 262,
+    "question": "The sum of the eigenvalues of an n x n square matrix is always equal to:",
+    "options": [
+      "The determinant of the matrix",
+      "The trace of the matrix (sum of diagonal elements)",
+      "Zero",
+      "n"
+    ],
+    "answer": "The trace of the matrix (sum of diagonal elements)",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 263,
+    "question": "The product of the eigenvalues of a square matrix A is equal to:",
+    "options": [
+      "The trace of A",
+      "The rank of A",
+      "The determinant of A",
+      "1"
+    ],
+    "answer": "The determinant of A",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 264,
+    "question": "The eigenvalues of an upper triangular matrix are simply:",
+    "options": [
+      "The non-zero entries of the matrix",
+      "The entries on its main diagonal",
+      "All ones",
+      "The elements in the first row"
+    ],
+    "answer": "The entries on its main diagonal",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 265,
+    "question": "If λ is a non-zero eigenvalue of a non-singular matrix A, then an eigenvalue of A⁻¹ is:",
+    "options": [
+      "-λ",
+      "λ²",
+      "1/λ",
+      "λ"
+    ],
+    "answer": "1/λ",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 266,
+    "question": "An n x n matrix A is diagonalizable if and only if it possesses:",
+    "options": [
+      "n distinct eigenvalues",
+      "n linearly independent eigenvectors",
+      "A non-zero determinant",
+      "Orthogonal rows"
+    ],
+    "answer": "n linearly independent eigenvectors",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 267,
+    "question": "A diagonal matrix is defined as a square matrix in which:",
+    "options": [
+      "All entries are zero",
+      "All diagonal entries are one",
+      "All non-diagonal entries are zero",
+      "All entries are the same"
+    ],
+    "answer": "All non-diagonal entries are zero",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 268,
+    "question": "If a matrix A is diagonalizable, it can be decomposed into the form:",
+    "options": [
+      "A = P⁻¹DP",
+      "A = PDP⁻¹",
+      "A = DPD",
+      "A = P²D"
+    ],
+    "answer": "A = PDP⁻¹",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 269,
+    "question": "Any symmetric matrix with real entries is always guaranteed to be:",
+    "options": [
+      "Invertible",
+      "Positive definite",
+      "Orthogonally diagonalizable",
+      "A zero matrix"
+    ],
+    "answer": "Orthogonally diagonalizable",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 270,
+    "question": "If all 'n' eigenvalues of an n x n matrix A are distinct, then the matrix A is:",
+    "options": [
+      "Defective",
+      "Guaranteed to be diagonalizable",
+      "Singular",
+      "Orthogonal"
+    ],
+    "answer": "Guaranteed to be diagonalizable",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 271,
+    "question": "A real symmetric matrix A is called positive definite if for every non-zero vector x, the quadratic form xᵀAx is:",
+    "options": [
+      "Greater than or equal to zero",
+      "Strictly greater than zero",
+      "Less than zero",
+      "Equal to zero"
+    ],
+    "answer": "Strictly greater than zero",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 272,
+    "question": "According to the eigenvalue test, a symmetric matrix is positive definite if and only if:",
+    "options": [
+      "All its eigenvalues are positive",
+      "All its eigenvalues are non-negative",
+      "At least one eigenvalue is positive",
+      "Its trace is positive"
+    ],
+    "answer": "All its eigenvalues are positive",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 273,
+    "question": "If a matrix is positive definite, then its determinant must be:",
+    "options": [
+      "Zero",
+      "Negative",
+      "Strictly positive",
+      "Greater than 1"
+    ],
+    "answer": "Strictly positive",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 274,
+    "question": "If a real symmetric matrix A has both positive and negative eigenvalues, it is classified as:",
+    "options": [
+      "Positive semi-definite",
+      "Negative definite",
+      "Indefinite",
+      "Non-singular"
+    ],
+    "answer": "Indefinite",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 275,
+    "question": "Sylvester's criterion states that a symmetric matrix is positive definite if and only if all of its leading principal minors (determinants of top-left submatrices) are:",
+    "options": [
+      "Positive",
+      "Non-zero",
+      "Negative",
+      "Equal to 1"
+    ],
+    "answer": "Positive",
+    "category": "Mathematics - Unit 3",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 276,
+    "question": "The Bisection method for finding roots is fundamentally based on which mathematical theorem?",
+    "options": [
+      "Mean Value Theorem",
+      "Intermediate Value Theorem",
+      "Rolle's Theorem",
+      "Taylor's Theorem"
+    ],
+    "answer": "Intermediate Value Theorem",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 277,
+    "question": "In the Bisection method, if a continuous function f(x) satisfies f(a) * f(b) < 0, it implies that:",
+    "options": [
+      "There is no root in the interval [a, b]",
+      "There is at least one root in the interval [a, b]",
+      "The root is exactly at the midpoint of [a, b]",
+      "The function is monotonically increasing"
+    ],
+    "answer": "There is at least one root in the interval [a, b]",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 278,
+    "question": "If the interval containing the root is [a, b], what is the formula to find the next approximation (the midpoint) in the Bisection method?",
+    "options": [
+      "x = (a - b) / 2",
+      "x = (b - a) / 2",
+      "x = (a + b) / 2",
+      "x = a * b / 2"
+    ],
+    "answer": "x = (a + b) / 2",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 279,
+    "question": "What is considered a major advantage of using the Bisection method to find roots?",
+    "options": [
+      "It has a very fast, quadratic rate of convergence",
+      "It is guaranteed to converge if the initial interval contains a root",
+      "It doesn't require knowing any initial interval",
+      "It can find complex roots easily"
+    ],
+    "answer": "It is guaranteed to converge if the initial interval contains a root",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 280,
+    "question": "What is the primary limitation of the Bisection method?",
+    "options": [
+      "It requires calculating derivatives",
+      "It has a very slow rate of convergence",
+      "It diverges frequently",
+      "It cannot handle polynomial equations"
+    ],
+    "answer": "It has a very slow rate of convergence",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 281,
+    "question": "If f(a) = 2 and f(b) = -3 for a continuous function over [a,b], what is the first approximation of the root using the Bisection method?",
+    "options": [
+      "a",
+      "b",
+      "(a + b) / 2",
+      "It cannot be determined"
+    ],
+    "answer": "(a + b) / 2",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 282,
+    "question": "What is the correct Newton-Raphson iteration formula for finding the next approximation x_{n+1}?",
+    "options": [
+      "x_{n+1} = x_n + f(x_n)/f'(x_n)",
+      "x_{n+1} = x_n - f(x_n)/f'(x_n)",
+      "x_{n+1} = x_n - f'(x_n)/f(x_n)",
+      "x_{n+1} = x_n * f(x_n)/f'(x_n)"
+    ],
+    "answer": "x_{n+1} = x_n - f(x_n)/f'(x_n)",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 283,
+    "question": "Unlike the Bisection method, the Newton-Raphson method requires the evaluation of:",
+    "options": [
+      "Two initial guesses",
+      "Only the function f(x)",
+      "Both the function f(x) and its first derivative f'(x)",
+      "The definite integral of the function"
+    ],
+    "answer": "Both the function f(x) and its first derivative f'(x)",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 284,
+    "question": "The rate of convergence of the Newton-Raphson method for a simple root is generally:",
+    "options": [
+      "Linear",
+      "Quadratic",
+      "Cubic",
+      "Exponential"
+    ],
+    "answer": "Quadratic",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 285,
+    "question": "The Newton-Raphson method fails and cannot proceed if at any iteration:",
+    "options": [
+      "The function value f(x_n) evaluates to zero",
+      "The initial guess x_0 is positive",
+      "The derivative f'(x_n) evaluates to zero",
+      "The function is a polynomial"
+    ],
+    "answer": "The derivative f'(x_n) evaluates to zero",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 286,
+    "question": "What is a major advantage of the Newton-Raphson method compared to the Bisection method?",
+    "options": [
+      "It never diverges",
+      "It doesn't require computing derivatives",
+      "It has a much faster (quadratic) rate of convergence",
+      "It requires an interval containing the root"
+    ],
+    "answer": "It has a much faster (quadratic) rate of convergence",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 287,
+    "question": "Find the first iteration x₁ using the Newton-Raphson method for f(x) = x² - 4 with an initial guess x₀ = 3.",
+    "options": [
+      "2.500",
+      "2.167",
+      "1.833",
+      "2.000"
+    ],
+    "answer": "2.167",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 288,
+    "question": "In which of the following scenarios is the Newton-Raphson method NOT guaranteed to converge?",
+    "options": [
+      "When finding roots of linear equations",
+      "When the initial guess is far from the true root",
+      "When finding roots of quadratic equations",
+      "When the function is strictly increasing"
+    ],
+    "answer": "When the initial guess is far from the true root",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 289,
+    "question": "The primary objective of the Gauss Elimination method is to transform a linear system's augmented matrix into:",
+    "options": [
+      "A diagonal matrix",
+      "An upper triangular matrix",
+      "A lower triangular matrix",
+      "An identity matrix"
+    ],
+    "answer": "An upper triangular matrix",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 290,
+    "question": "In the Gauss Elimination method, after the upper triangular matrix is formed, the variables are solved using a process called:",
+    "options": [
+      "Forward substitution",
+      "Back substitution",
+      "Matrix inversion",
+      "Pivoting"
+    ],
+    "answer": "Back substitution",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 291,
+    "question": "During Gauss Elimination, the specific element used to eliminate the variables in the rows directly below it is called the:",
+    "options": [
+      "Trace element",
+      "Diagonal element",
+      "Pivot element",
+      "Determinant"
+    ],
+    "answer": "Pivot element",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 292,
+    "question": "What is an augmented matrix in the context of solving the system Ax = B?",
+    "options": [
+      "The matrix A multiplied by B",
+      "A matrix formed by appending the column vector B to the coefficient matrix A",
+      "The inverse of matrix A",
+      "The sum of matrices A and B"
+    ],
+    "answer": "A matrix formed by appending the column vector B to the coefficient matrix A",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 293,
+    "question": "If a pivot element becomes zero during the Gauss elimination process, what specific operation is required to proceed?",
+    "options": [
+      "Stop the algorithm, as there is no solution",
+      "Partial pivoting (swapping the current row with another row below it)",
+      "Multiplying the entire matrix by zero",
+      "Changing the sign of the pivot element"
+    ],
+    "answer": "Partial pivoting (swapping the current row with another row below it)",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 294,
+    "question": "The computational complexity (number of operations) required for Gauss Elimination for a dense system of 'n' equations is approximately proportional to:",
+    "options": [
+      "O(n)",
+      "O(n²)",
+      "O(n³)",
+      "O(2ⁿ)"
+    ],
+    "answer": "O(n³)",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Tough"
+  },
+  {
+    "id": 295,
+    "question": "Gradient descent is an iterative optimization algorithm primarily used to find the:",
+    "options": [
+      "Roots of a polynomial",
+      "Local minimum of a differentiable function",
+      "Eigenvalues of a matrix",
+      "Exact inverse of a function"
+    ],
+    "answer": "Local minimum of a differentiable function",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 296,
+    "question": "In the Gradient Descent algorithm, the direction of the steepest descent at a given point is given by:",
+    "options": [
+      "The positive gradient vector at that point",
+      "The negative gradient vector at that point",
+      "The second derivative (Hessian matrix)",
+      "A random orthogonal vector"
+    ],
+    "answer": "The negative gradient vector at that point",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 297,
+    "question": "The parameter that determines the size of the steps taken towards the minimum in Gradient Descent is called the:",
+    "options": [
+      "Momentum",
+      "Epoch limit",
+      "Learning rate",
+      "Tolerance"
+    ],
+    "answer": "Learning rate",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 298,
+    "question": "If α is the learning rate, the update rule for finding the minimum of f(x) using gradient descent is given by:",
+    "options": [
+      "x_{new} = x_{old} + α * ∇f(x_{old})",
+      "x_{new} = x_{old} - α * ∇f(x_{old})",
+      "x_{new} = x_{old} / (α * ∇f(x_{old}))",
+      "x_{new} = α * x_{old} - ∇f(x_{old})"
+    ],
+    "answer": "x_{new} = x_{old} - α * ∇f(x_{old})",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 299,
+    "question": "If the learning rate in a Gradient Descent algorithm is set too high, the algorithm might:",
+    "options": [
+      "Converge too quickly to a suboptimal minimum",
+      "Take an infinite number of steps to converge",
+      "Overshoot the minimum and potentially diverge",
+      "Automatically reduce the learning rate"
+    ],
+    "answer": "Overshoot the minimum and potentially diverge",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 300,
+    "question": "Gradient Descent (and its variants) is the most widely used optimization algorithm in which modern application field?",
+    "options": [
+      "Finding eigenvalues of small matrices",
+      "Training machine learning and deep learning models",
+      "Solving simple quadratic equations by hand",
+      "Evaluating definite integrals"
+    ],
+    "answer": "Training machine learning and deep learning models",
+    "category": "Mathematics - Unit 4",
+    "difficulty": "Easy"
   }
 ];
